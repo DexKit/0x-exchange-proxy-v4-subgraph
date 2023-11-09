@@ -1,0 +1,19 @@
+{
+  "name": "dexkit-0x-exchange-proxy-v4",
+  "license": "MIT",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "deploy": "graph deploy --studio 0x-exchange-proxy-v4",
+    "create-local": "graph create --node http://localhost:8020/ dexkit/0x-exchange-proxy-v4",
+    "remove-local": "graph remove --node http://localhost:8020/ dexkit/0x-exchange-proxy-v4",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 dexkit/0x-exchange-proxy-v4"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.60.0",
+    "@graphprotocol/graph-ts": "0.31.0"
+  },
+  "devDependencies": {
+    "matchstick-as": "^0.6.0"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "mainnet": {
+    "ExchangeProxy": {
+      "address": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+      "startBlock": 11565019
+    },
+    "Transformers": {
+      "startBlock": 11565019
+    },
+    "LiquidityProviders": {
+      "startBlock": 11565019
+    },
+    "Uniswap": {
+      "startBlock": 11565019
+    },
+    "UniswapV3": {
+      "startBlock": 12369621
+    }
+  },
+  "goerli": {
+    "ExchangeProxy": {
+      "address": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+      "startBlock": 11565019
+    },
+    "Transformers": {
+      "startBlock": 11565019
+    },
+    "LiquidityProviders": {
+      "startBlock": 11565019
+    },
+    "Uniswap": {
+      "startBlock": 11565019
+    },
+    "UniswapV3": {
+      "startBlock": 12369621
+    }
+  },
+  "optimism": {
+    "ExchangeProxy": {
+      "address": "0xdef1abe32c034e558cdd535791643c58a13acc10",
+      "startBlock": 11565019
+    },
+    "Transformers": {
+      "startBlock": 11565019
+    },
+    "LiquidityProviders": {
+      "startBlock": 11565019
+    },
+    "Uniswap": {
+      "startBlock": 11565019
+    },
+    "UniswapV3": {
+      "startBlock": 12369621
+    }
+  },
+  "bsc": {
+    "ExchangeProxy": {
+      "address": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+      "startBlock": 5375047
+    },
+    "Transformers": {
+      "startBlock": 5375047
+    },
+    "LiquidityProviders": {
+      "startBlock": 5375047
+    },
+    "Uniswap": {
+      "startBlock": 5375047
+    },
+    "UniswapV3": {
+      "startBlock": 5375047
+    }
+  },
+  "matic": {
+    "ExchangeProxy": {
+      "address": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+      "startBlock": 14391480
+    },
+    "Transformers": {
+      "startBlock": 14391480
+    },
+    "LiquidityProviders": {
+      "startBlock": 14391480
+    },
+    "Uniswap": {
+      "startBlock": 14391480
+    },
+    "UniswapV3": {
+      "startBlock": 14391480
+    }
+  },
+  "fantom": {
+    "ExchangeProxy": {
+      "address": "0xdef189deaef76e379df891899eb5a00a94cbc250",
+      "startBlock": 18855765
+    },
+    "Transformers": {
+      "startBlock": 18855765
+    },
+    "LiquidityProviders": {
+      "startBlock": 18855765
+    },
+    "Uniswap": {
+      "startBlock": 18855765
+    },
+    "UniswapV3": {
+      "startBlock": 18855765
+    }
+  },
+  "avalanche": {
+    "ExchangeProxy": {
+      "address": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+      "startBlock": 3389125
+    },
+    "Transformers": {
+      "startBlock": 3389125
+    },
+    "LiquidityProviders": {
+      "startBlock": 3389125
+    },
+    "Uniswap": {
+      "startBlock": 3389125
+    },
+    "UniswapV3": {
+      "startBlock": 3389125
+    }
+  },
+  "arbitrum-one": {
+    "ExchangeProxy": {
+      "address": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+      "startBlock": 4050713
+    },
+    "Transformers": {
+      "startBlock": 4050713
+    },
+    "LiquidityProviders": {
+      "startBlock": 4050713
+    },
+    "Uniswap": {
+      "startBlock": 4050713
+    },
+    "UniswapV3": {
+      "startBlock": 4050713
+    }
+  },
+  "base": {
+    "ExchangeProxy": {
+      "address": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+      "startBlock": 1410360
+    },
+    "Transformers": {
+      "startBlock": 1410360
+    },
+    "LiquidityProviders": {
+      "startBlock": 1410360
+    },
+    "Uniswap": {
+      "startBlock": 1410360
+    },
+    "UniswapV3": {
+      "startBlock": 1410360
+    }
+  },
+  "celo": {
+    "ExchangeProxy": {
+      "address": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+      "startBlock": 9350111
+    },
+    "Transformers": {
+      "startBlock": 9350111
+    },
+    "LiquidityProviders": {
+      "startBlock": 9350111
+    },
+    "Uniswap": {
+      "startBlock": 9350111
+    },
+    "UniswapV3": {
+      "startBlock": 9350111
+    }
+  }
+}

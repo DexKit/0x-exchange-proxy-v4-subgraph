@@ -1,6 +1,6 @@
 specVersion: 0.0.5
 description: 0x ExchangeProxy V4
-repository: https://github.com/DexKit/0x-exchange-proxy-v4--subgraph
+repository: https://github.com/DexKit/0x-exchange-proxy-v4-subgraph
 schema:
   file: ./schema.graphql
 dataSources:

@@ -21,7 +21,7 @@ export function getPoolInfo(pairAddress: Address): PoolInfo {
     if (pairFactoryResult.reverted) {
         return info;
     }
-    let pairFactoryAddress = Address.fromHexString(pairFactoryResult.value.toHexString()) as Address;
+    let pairFactoryAddress = pairFactoryResult.value;
     if (pairFactoryAddress != GET_UNISWAP_V3_FACTORY_ADDRESS()) {
         return info; // invalid pool
     }

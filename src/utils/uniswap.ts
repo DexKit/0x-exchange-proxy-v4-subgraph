@@ -22,7 +22,7 @@ export function getPairInfo(pairAddress: Address): PairInfo {
     if (pairFactoryResult.reverted) {
         return info;
     }
-    let pairFactoryAddress = Address.fromHexString(pairFactoryResult.value.toHexString()) as Address;
+    let pairFactoryAddress = pairFactoryResult.value;
     if (pairFactoryAddress == GET_UNISWAP_V2_FACTORY_ADDRESS()) {
         info.source = 'UniswapV2';
     } else if (pairFactoryAddress == GET_SUSHISWAP_FACTORY_ADDRESS()) {

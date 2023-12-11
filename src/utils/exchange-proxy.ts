@@ -68,7 +68,7 @@ export function findSellToUniswapV3EventFills(tx: Transaction, tokenPath: Addres
         let _fills = findSwapEventFills(tx);
         for (let i = 0; i < _fills.length; ++i) {
             let f = _fills[i];
-            if (f.source == 'UniswapV3' && f.sender as Address == GET_EXCHANGE_PROXY_ADDRESS() as Address) {
+            if (f.source == 'UniswapV3' && f.sender as Bytes == GET_EXCHANGE_PROXY_ADDRESS() as Bytes) {
                 fills.push(f);
             }
         }
@@ -158,7 +158,7 @@ export function findSellToUniswapEventFills(tx: Transaction, call: SellToUniswap
         let _fills = findSwapEventFills(tx);
         for (let i = 0; i < _fills.length; ++i) {
             let f = _fills[i];
-            if (f.source == source && f.sender as Address == GET_EXCHANGE_PROXY_ADDRESS() as Address) {
+            if (f.source == source && f.sender as Bytes == GET_EXCHANGE_PROXY_ADDRESS() as Bytes) {
                 fills.push(f);
             }
         }
@@ -202,7 +202,7 @@ export function findSellToPancakeEventFills(tx: Transaction, call: SellToPancake
         let _fills = findSwapEventFills(tx);
         for (let i = 0; i < _fills.length; ++i) {
             let f = _fills[i];
-            if (f.source == source && f.sender as Address == GET_EXCHANGE_PROXY_ADDRESS() as Address) {
+            if (f.source == source && f.sender as Bytes == GET_EXCHANGE_PROXY_ADDRESS() as Bytes) {
                 fills.push(f);
             }
         }

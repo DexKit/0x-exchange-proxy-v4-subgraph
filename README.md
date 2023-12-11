@@ -4,6 +4,8 @@ This is a community-run subgraph for the 0x Exchange proxy supporting all curren
 
 This is an extended fork from [https://github.com/0xProject/ep-subgraph].
 
+If you are looking for a graph more focused on NFT trading look at this repo [https://github.com/DexKit/0x-nft-v4-subgraph].
+
 Added:
 
 - ERC721 NFT fills
